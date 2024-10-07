@@ -10,9 +10,6 @@ import zipfile
 try:
     os.system('pip install kaggle')
     os.system('kaggle datasets download -d fivethirtyeight/fivethirtyeight-comic-characters-dataset')
-    os.remove('C:/Users/Алексей/PycharmProjects/pythonProject/marvel-wikia-data.csv')
-    os.remove('C:/Users/Алексей/PycharmProjects/pythonProject/dc-wikia-data.csv')
-    os.remove('C:/Users/Алексей/PycharmProjects/pythonProject/dc-wikia-data-processed.csv')
 except:
     print('')
 
